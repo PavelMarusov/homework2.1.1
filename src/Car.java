@@ -2,8 +2,8 @@ public class Car extends Transport {
     private String color;
     private double volume;
 
-    public Car(int age, Label label, String color, double volume) {
-        super(age, label);
+    public Car(int age, Label label, Garage garage, String color, double volume) {
+        super(age, label, garage);
         this.color = color;
         this.volume = volume;
     }

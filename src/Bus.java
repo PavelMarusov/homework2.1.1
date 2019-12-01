@@ -1,8 +1,8 @@
 public final class Bus extends Car {
     private int passengerSeat;
 
-    public Bus(int age, Label label, String color, double volume, int passengerSeat) {
-        super(age, label, color, volume);
+    public Bus(int age, Label label, Garage garage, String color, double volume, int passengerSeat) {
+        super(age, label, garage, color, volume);
         this.passengerSeat = passengerSeat;
     }
 
